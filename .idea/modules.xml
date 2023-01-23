@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DY-E-Factures.iml" filepath="$PROJECT_DIR$/.idea/DY-E-Factures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/efactures/efactures.iml" filepath="$PROJECT_DIR$/efactures/efactures.iml" />
+    </modules>
+  </component>
+</project>
