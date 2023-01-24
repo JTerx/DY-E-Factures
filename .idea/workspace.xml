@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/response/DataResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/AuthenticationImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/Facture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/PaiementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/PaiementRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674506977230</updated>
-      <workItem from="1674506979386" duration="11237000" />
+      <workItem from="1674506979386" duration="11556000" />
     </task>
     <servers />
   </component>
