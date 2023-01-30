@@ -5,98 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_138.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43154c4748d7cd2c8bc0aa7489f67cc238bdcd45" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60afcb292cb84a82344f7ea6e5a9822f69d30760" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ab62b8e5482e4db2ee1cff3a080afefeb8dcfdd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e5732caf203e2b7cb77ecf4f5c031acfb25faf8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad207d65ca8fe56b6c76c17a565391a57a4ed918" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0b7b1e2ce206ef6c2dd671c2b4f01ad8945eacd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3201cd27d31a2d4d3d5f3115dea491a47d907af" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b51d138913228528ad37ae977c090a2a8456eb8b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc20f968507dda7e8d90c1bbc4aee0370deac2d6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc3fd6e5bc19a36d72e7157489049f9558c6e574" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc61be9f9ac521ecef99bf69b7f56e55bce7bf1f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/FactureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/exception/ResourceAlreadyExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_9_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_9_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_9_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_6.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_9_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/675eb4631ec7dbcc7b2f00b1dd5e35352e077a14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/ClientFactureDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/CompanyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/FactureDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/PrestationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Enum/FactureStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/UserCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/AuthenticationServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43154c4748d7cd2c8bc0aa7489f67cc238bdcd45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60afcb292cb84a82344f7ea6e5a9822f69d30760" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e5732caf203e2b7cb77ecf4f5c031acfb25faf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0b7b1e2ce206ef6c2dd671c2b4f01ad8945eacd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3201cd27d31a2d4d3d5f3115dea491a47d907af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b51d138913228528ad37ae977c090a2a8456eb8b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc20f968507dda7e8d90c1bbc4aee0370deac2d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc61be9f9ac521ecef99bf69b7f56e55bce7bf1f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/efactures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/ArticleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/ClientDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/CompanyDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/FactureDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/MeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/PaiementDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/ArticleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Prestation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/ClientEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/ClientFacture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/FactureEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Facture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/PaiementEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Paiement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Article.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Facture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/Paiement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/SignIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/SignUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/response/DataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/response/DataResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/PrestationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/MeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/MeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/TokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/TokenDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/ClientFacture.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/ClientFacture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Prestation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/Prestation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/entity/response/DataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/model/response/DataResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/exception/ResourceAlreadyExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/exception/ResourceAlreadyExistException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/FactureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/FactureRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/PaiementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/PaiementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/Authentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/authenticationService/AuthenticationImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/clientService/ClientServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/companyService/CompanyServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/factureService/FactureServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/services/userService/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efactures/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/efactures/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +76,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -184,7 +154,8 @@
       <workItem from="1674522907111" duration="491000" />
       <workItem from="1674682650053" duration="196000" />
       <workItem from="1674682982777" duration="2000" />
-      <workItem from="1674866835420" duration="12251000" />
+      <workItem from="1674866835420" duration="14808000" />
+      <workItem from="1675034677729" duration="23706000" />
     </task>
     <servers />
   </component>
@@ -193,5 +164,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/UserController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/efactures/src/main/java/com/digitalyouthservices/efactures/controller/UserController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.digitalyouthservices.efactures.dto.RegisterDto" memberName="companyName" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

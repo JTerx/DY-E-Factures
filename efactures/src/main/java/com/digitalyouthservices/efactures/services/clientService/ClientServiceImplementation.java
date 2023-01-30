@@ -27,11 +27,9 @@ public class ClientServiceImplementation implements ClientService {
         if(!currentClient.isPresent()) {
             clientRepository.save(clientFacture);
         }
-            throw new ResourceAlreadyExistException("The client ", clientFacture.getName());
-
+            throw new ResourceAlreadyExistException("Not Found");
 
     }
-
     @Override
     public void deleteById(Long clientId) {
         clientRepository.deleteById(clientId);

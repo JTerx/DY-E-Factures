@@ -8,21 +8,15 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Company {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String website;
-    private String email;
-    private Long SIRET;
-    private String logo;
-    @OneToOne(mappedBy = "company")
+    @OneToOne
+    @JoinColumn(name = "user_id")
     private UserAccount userAccount;
     @OneToMany(mappedBy = "company")
-    private List<Facture> factures;
+    private List<Facture> facture;
 }

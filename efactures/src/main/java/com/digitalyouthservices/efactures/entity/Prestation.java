@@ -18,8 +18,13 @@ public class Prestation {
     private String name;
     private String description;
     private Double price;
-    private Integer quantity;
+    private int quantity;
     @ManyToOne
     @JoinColumn(name = "facture_id")
     private Facture facture;
+
+    public Double Total(){
+        double total = this.getPrice() * this.getQuantity();
+        return total;
+    }
 }

@@ -30,7 +30,7 @@ public class FactureServiceImplementation implements FactureService{
         if(!currentFacture.isPresent()){
             factureRepository.save(facture);
         }
-        throw new ResourceAlreadyExistException("Facture ", facture.getId() + " already exists");
+        throw new ResourceAlreadyExistException("Facture  already exists");
     }
 
     @Override

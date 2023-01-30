@@ -21,5 +21,5 @@ public class ClientFacture {
     private String address;
     private String email;
     @OneToMany(mappedBy = "clientFacture", cascade = CascadeType.ALL)
-    private List<Facture> factures;
+    private List<Facture> facture;
 }

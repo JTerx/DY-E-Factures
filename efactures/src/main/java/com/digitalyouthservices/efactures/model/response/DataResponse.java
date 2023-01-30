@@ -1,4 +1,4 @@
-package com.digitalyouthservices.efactures.entity.response;
+package com.digitalyouthservices.efactures.model.response;
 
 import lombok.Data;
 
