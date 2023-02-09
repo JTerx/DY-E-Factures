@@ -1,17 +1,18 @@
 package com.digitalyouthservices.efactures.dto;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class CompanyDto {
 
-    public Long id;
-    public String name;
-    public UserDto user;
+    private Long id;
+    private String name;
 
-    public CompanyDto(Long id, String name, UserDto user) {
-        this.id = id;
-        this.name = name;
-        this.user = user;
-    }
-
-    public CompanyDto() {
-    }
 }

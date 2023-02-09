@@ -14,17 +14,15 @@ public class Facture {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private int factureNumber;
     private LocalDate dateEmission;
-
     @ManyToOne
     @JoinColumn(name = "client_id")
-    private ClientFacture clientFacture;
+    private Client client;
     @OneToMany(mappedBy = "facture", cascade = CascadeType.ALL)
-    private Set<Prestation> prestation;
+    private Set<Commande> commande;
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private UserAccount userAccount;
+    private User user;
     @ManyToOne
     @JoinColumn(name = "company_id")
     private Company company;

@@ -16,7 +16,7 @@ public class Company {
     private String name;
     @OneToOne
     @JoinColumn(name = "user_id")
-    private UserAccount userAccount;
+    private User user;
     @OneToMany(mappedBy = "company")
     private List<Facture> facture;
 }

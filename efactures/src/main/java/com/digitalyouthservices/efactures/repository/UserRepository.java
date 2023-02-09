@@ -1,10 +1,22 @@
 package com.digitalyouthservices.efactures.repository;
 
-import com.digitalyouthservices.efactures.entity.UserAccount;
+import com.digitalyouthservices.efactures.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
-public interface UserRepository extends JpaRepository<UserAccount, Long> {
-    List<UserAccount> findByEmail(String email);
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
+
+    Optional<User> findByUsernameOrEmail(String username, String email);
+
+    Optional<User> findByUsername(String username);
+
+    Boolean existsByUsername(String username);
+
+    Boolean existsByEmail(String email);
 }
