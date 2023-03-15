@@ -5,67 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_138.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_15_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_core_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_mockmvc_2_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_50.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/RoleServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/UserServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_1_7_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/exceptions/ClientExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/ClientServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/DyInvoiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/DyInvoiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Facture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/RegisterDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/FactureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/FactureRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/security/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/security/JwtTokenProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/FactureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/FactureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +124,7 @@
       <workItem from="1676982076126" duration="3060000" />
       <workItem from="1678891408600" duration="73000" />
       <workItem from="1678891526508" duration="1275000" />
-      <workItem from="1678892887112" duration="11364000" />
+      <workItem from="1678892887112" duration="13838000" />
     </task>
     <servers />
   </component>
