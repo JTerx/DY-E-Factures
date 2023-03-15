@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="efactures" />
+        <module name="dy-invoice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dy-invoice" target="17" />
       <module name="efactures" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dy-invoice" options="-parameters" />
       <module name="efactures" options="-parameters" />
     </option>
   </component>
