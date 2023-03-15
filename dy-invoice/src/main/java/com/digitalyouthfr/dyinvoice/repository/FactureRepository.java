@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface FactureRepository extends JpaRepository<Facture, Long> {
 
 
-    Optional<Facture> findName(String name);
+
 
 
 }

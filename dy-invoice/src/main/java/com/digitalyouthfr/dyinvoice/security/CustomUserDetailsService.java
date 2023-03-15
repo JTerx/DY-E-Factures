@@ -18,14 +18,15 @@ public class CustomUserDetailsService implements UserDetailsService {
     private UserRepository userRepository;
 
     public CustomUserDetailsService(UserRepository userRepository) {
+
         this.userRepository = userRepository;
     }
 
     @Override
-    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        User user = userRepository.findByEmail(email, email)
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        User user = userRepository.findByUsernameOrEmail(username, username)
                 .orElseThrow(() ->
-                        new UsernameNotFoundException("User not found with username or email: "+ email));
+                        new UsernameNotFoundException("User not found with email: "+ username));
 
         Set<GrantedAuthority> authorities = user
                 .getRoles()
