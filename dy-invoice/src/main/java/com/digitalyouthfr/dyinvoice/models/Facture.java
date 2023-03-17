@@ -19,7 +19,7 @@ public class Facture {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    private Long number;
     private String name;
 
     private Date dateCreation;

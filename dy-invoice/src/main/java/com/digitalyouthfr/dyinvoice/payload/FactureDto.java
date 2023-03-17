@@ -13,6 +13,8 @@ import java.util.Date;
 public class FactureDto {
 
     private Long id;
+    private Long number;
+    private String name;
     private Date dateCreation;
     private Long clientId;
     private Long userId;

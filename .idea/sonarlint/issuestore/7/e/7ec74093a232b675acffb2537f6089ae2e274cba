@@ -1,12 +1,0 @@
-
-
-java:S14884"]Immediately return this expression instead of assigning it to the temporary variable "token".(×”à¦ùÿÿÿÿ8¸Š»Áã0
-J
-java:S5411<"(Use a primitive boolean expression here.(¸Ç–Þüÿÿÿÿ8µö³Ÿç0
-J
-java:S5411A"(Use a primitive boolean expression here.(“×°Šùÿÿÿÿ8µö³Ÿç0
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½€ÓÙûÿÿÿÿ
-r
-java:S3655N"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Œì”þÿÿÿÿ8Ðö³Ÿç0
-u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ƒÿ¶Ÿç0

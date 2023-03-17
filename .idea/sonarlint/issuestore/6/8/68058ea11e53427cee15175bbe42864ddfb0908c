@@ -1,0 +1,12 @@
+
+h
+java:S62042"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+H
+java:S16111"2Remove the parentheses around the "user" parameter(¾ÖÁ
+h
+java:S6204^"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+h
+java:S6204a"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+V	java:S125d"<This block of commented-out lines of code should be removed.(¿–Â¶şÿÿÿÿ
+H
+java:S1068!"2Remove this unused "roleRepository" private field.(âÅïŞ

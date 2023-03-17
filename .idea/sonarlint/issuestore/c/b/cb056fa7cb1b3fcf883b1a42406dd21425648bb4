@@ -1,0 +1,5 @@
+
+h
+java:S62045"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+O
+java:S16114"4Remove the parentheses around the "client" parameter(¥Üï½þÿÿÿÿ
