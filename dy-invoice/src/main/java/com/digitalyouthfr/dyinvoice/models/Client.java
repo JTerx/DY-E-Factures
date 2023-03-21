@@ -8,7 +8,6 @@ import java.util.Set;
 
 @Getter
 @Setter
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
@@ -18,12 +17,15 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private String email;
-    private int phoneNumber;
-
+    private Long phoneNumber;
     @OneToMany(mappedBy = "client")
-    private Set<Facture> factures;
+    private Set<Facture> facture;
+
+
+    public Client(Long id){
+        this.id = id;
+    }
 
 }

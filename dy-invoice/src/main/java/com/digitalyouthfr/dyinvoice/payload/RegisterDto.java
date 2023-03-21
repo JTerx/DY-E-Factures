@@ -16,6 +16,6 @@ public class RegisterDto {
     private String email;
     private String username;
     private String companyName;
-    private int phoneNumber;
+    private String phoneNumber;
     private String password;
 }

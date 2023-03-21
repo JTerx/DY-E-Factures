@@ -8,7 +8,6 @@ import java.util.Set;
 
 @Getter
 @Setter
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
@@ -31,7 +30,7 @@ public class User {
     private String password;
 
     @Column(unique = true)
-    private int phoneNumber;
+    private Long phoneNumber;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "users_roles",
@@ -42,5 +41,9 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     private Set<Facture> factures;
+
+    public User(Long id){
+        this.id = id;
+    }
 
 }

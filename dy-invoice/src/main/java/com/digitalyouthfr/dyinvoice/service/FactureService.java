@@ -12,9 +12,9 @@ public interface FactureService {
 
     FactureDto getFactureById(Long id);
 
-    FactureDto getFactureByNumber(Long number);
+    FactureDto getFactureByNumber(String number);
 
-    FactureDto createFacture(Long clientId, Long userId,FactureDto factureDto);
+    FactureDto createFacture(FactureDto factureDto);
 
     FactureDto updateFacture(Long id, FactureDto factureDto);
 
@@ -22,5 +22,5 @@ public interface FactureService {
 
     List<FactureDto> getFacturesByUserId(Long userId);
 
-    List<FactureDto> getFacturesByClientId(Long clientId);
+//    List<FactureDto> getFacturesByClientId(Long clientId);
 }

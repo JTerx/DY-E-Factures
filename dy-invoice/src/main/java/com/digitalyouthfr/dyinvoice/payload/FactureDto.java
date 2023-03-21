@@ -1,6 +1,9 @@
 package com.digitalyouthfr.dyinvoice.payload;
 
+import com.digitalyouthfr.dyinvoice.models.Client;
 import com.digitalyouthfr.dyinvoice.models.FactureEtat;
+import com.digitalyouthfr.dyinvoice.models.User;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
 import java.util.Date;
@@ -9,15 +12,14 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 public class FactureDto {
 
-    private Long id;
-    private Long number;
+    private String number;
     private String name;
-    private Date dateCreation;
-    private Long clientId;
-    private Long userId;
+    private Date dateCreation= new Date();
+    private ClientDto client;
+    private UserDto user;
     private double montant;
     private FactureEtat etat;
+
 }

@@ -1,13 +1,21 @@
 
-—
-java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾¤”
-h
-java:S6204'"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+j
+java:S11924"HDefine a constant instead of duplicating this literal "Facture" 3 times.(œÿÀøÿÿÿÿ8¨ÃÛÿï0
+o
+java:S6204."RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8±ÃÛÿï0
+W
+java:S1611-"5Remove the parentheses around the "facture" parameter(˜“­«ûÿÿÿÿ8±ÃÛÿï0
+U	java:S106B"9Replace this use of System.out or System.err by a logger.(¿—ï˜8³ÃÛÿï0
+o
+java:S6204n"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´ÃÛÿï0
+o
+java:S6204r"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8µÃÛÿï0
+X	java:S125v"<This block of commented-out lines of code should be removed.(ƒ˜¶­8µÃÛÿï0
+c
+java:S1128"GRemove this unused import 'com.digitalyouthfr.dyinvoice.models.Client'.(ÆšŒ:8µÃÛÿï0
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8µÃÛÿï0
+t
+java:S1128"RRemove this unused import 'org.hibernate.tool.schema.SchemaToolingLogging.LOGGER'.(ä«¯ûüÿÿÿÿ8µÃÛÿï0
 P
-java:S1611&"5Remove the parentheses around the "facture" parameter(˜“­«ûÿÿÿÿ
-A
-java:S1168D"+Return an empty collection instead of null.(¥¹ï
-A
-java:S1168I"+Return an empty collection instead of null.(¥¹ï
-H
-java:S1068"2Remove this unused "userRepository" private field.(¼²Æ÷
+java:S1068"4Remove this unused "clientRepository" private field.(ôÅ8¶ÃÛÿï0

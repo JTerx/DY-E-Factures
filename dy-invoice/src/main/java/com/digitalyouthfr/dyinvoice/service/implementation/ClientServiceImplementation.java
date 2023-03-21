@@ -27,9 +27,13 @@ public class ClientServiceImplementation implements ClientService {
 
     @Override
     public ClientDto createClient(ClientDto clientDto) {
+        System.out.println(clientDto);
         Client client = mapper.map(clientDto, Client.class);
+
         Optional<Client> currentClient = clientRepository.findByEmail(client.getEmail());
         if(!currentClient.isPresent()){
+            //verifier l'objet client
+            System.out.println(client);
             Client saveClient = clientRepository.save(client);
             return mapper.map(saveClient, ClientDto.class);
         }else {
@@ -39,7 +43,7 @@ public class ClientServiceImplementation implements ClientService {
     }
 
     @Override
-    public ClientDto getClientById(long id) {
+    public ClientDto getClientById(Long id) {
         Client client = clientRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("client", "id", id));
         return mapper.map(client, ClientDto.class);
@@ -54,12 +58,12 @@ public class ClientServiceImplementation implements ClientService {
     }
 
     @Override
-    public ClientDto updateClient(ClientDto clientDto, long id) {
+    public ClientDto updateClient(ClientDto clientDto, Long id) {
         return null;
     }
 
     @Override
-    public void deleteClientById(long id) {
+    public void deleteClientById(Long id) {
 
         Client client = clientRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Client", "id", id));

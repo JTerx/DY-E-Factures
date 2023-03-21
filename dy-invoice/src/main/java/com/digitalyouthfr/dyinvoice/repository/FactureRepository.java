@@ -8,5 +8,5 @@ import java.util.Optional;
 public interface FactureRepository extends JpaRepository<Facture, Long> {
 
 
-    Optional<Facture> findByNumber(Long number);
+    Optional<Facture> findByNumber(String number);
 }

@@ -1,9 +1,9 @@
 package com.digitalyouthfr.dyinvoice.controller;
 
 
+import com.digitalyouthfr.dyinvoice.models.Client;
 import com.digitalyouthfr.dyinvoice.payload.ClientDto;
 import com.digitalyouthfr.dyinvoice.service.ClientService;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/client/")
+@RequestMapping("/api/client")
 public class ClientController {
 
     private final ClientService clientService;
@@ -34,7 +34,7 @@ public class ClientController {
         return ResponseEntity.ok(clientDto);
     }
 
-    @PostMapping
+    @PostMapping(value = {"/create"})
     public ResponseEntity<ClientDto> createClient(@RequestBody ClientDto clientDto){
         ClientDto saveClient = clientService.createClient(clientDto);
         return new ResponseEntity<>(saveClient, HttpStatus.CREATED);

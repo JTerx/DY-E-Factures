@@ -8,5 +8,11 @@ java:S6204^"RReplace this usage of 'Stream.collect(Collectors.toList())' with '
 h
 java:S6204a"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
 V	java:S125d"<This block of commented-out lines of code should be removed.(¿–Â¶þÿÿÿÿ
+g
+java:S1128"ERemove this unused import 'com.digitalyouthfr.dyinvoice.models.Role'.(•’­ûùÿÿÿÿ8æîÔýï0
+^
+java:S1128"<Remove this unused import 'javax.persistence.EntityManager'.(ðàËÒýÿÿÿÿ8æîÔýï0
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8æîÔýï0
 H
 java:S1068!"2Remove this unused "roleRepository" private field.(âÅïÞ

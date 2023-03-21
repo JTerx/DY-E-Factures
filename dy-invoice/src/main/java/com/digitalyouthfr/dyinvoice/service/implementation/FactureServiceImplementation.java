@@ -6,6 +6,7 @@ import com.digitalyouthfr.dyinvoice.models.Client;
 import com.digitalyouthfr.dyinvoice.models.Facture;
 import com.digitalyouthfr.dyinvoice.models.FactureEtat;
 import com.digitalyouthfr.dyinvoice.models.User;
+import com.digitalyouthfr.dyinvoice.payload.ClientDto;
 import com.digitalyouthfr.dyinvoice.payload.FactureDto;
 import com.digitalyouthfr.dyinvoice.repository.ClientRepository;
 import com.digitalyouthfr.dyinvoice.repository.FactureRepository;
@@ -14,9 +15,10 @@ import com.digitalyouthfr.dyinvoice.service.FactureService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 
@@ -53,46 +55,67 @@ public class FactureServiceImplementation implements FactureService {
     }
 
     @Override
-    public FactureDto getFactureByNumber(Long number) {
+    public FactureDto getFactureByNumber(String number) {
         Facture facture = factureRepository.findByNumber(number)
-                .orElseThrow(() -> new ResourceNotFoundException("Facture", "number", number));
+                .orElseThrow(() -> new ResourceNotFoundException("Facture", "number", Long.parseLong(number)));
         return mapper.map(facture, FactureDto.class);
     }
 
+    //Generate Facture Number
+    private String generateFactureNumber(Facture facture) {
+        Date dateCreation = facture.getDateCreation();
+        int year = dateCreation.getYear() + 1900;
+        int month = dateCreation.getMonth() + 1;
+        int day = dateCreation.getDate();
+        Long id = facture.getId();
+        return String.format("%d-%02d-%02d-%04d", year, month, day, id);
+    }
+
     @Override
-    public FactureDto createFacture(Long clientId, Long userId,FactureDto factureDto) {
-        Client client = clientRepository.findById(clientId)
-                .orElseThrow(() -> new ResourceNotFoundException("client", "id", clientId));
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new ResourceNotFoundException("user", "id", userId));
-
+    public FactureDto createFacture(FactureDto factureDto) {
         Facture facture = mapper.map(factureDto, Facture.class);
-        Optional<Facture> currentFacture = factureRepository.findByNumber(facture.getNumber());
-        if(!currentFacture.isPresent()){
 
+        if (factureDto.getClient() != null) {
+            Client client = mapper.map(factureDto.getClient(), Client.class);
             facture.setClient(client);
-            facture.setUser(user);
-            facture.setEtat(FactureEtat.EN_ATTENTE);
-
-            Facture saveFacture = factureRepository.save(facture);
-            return mapper.map(saveFacture, FactureDto.class);
-        }else{
-            throw new FactureExistException("Facture already exists", facture.getNumber());
         }
 
+        if (factureDto.getUser() != null) {
+            User user = mapper.map(factureDto.getUser(), User.class);
+            facture.setUser(user);
+        }
 
-
+        Optional<Facture> currentFacture = factureRepository.findByNumber(facture.getNumber());
+        if (!currentFacture.isPresent()) {
+            facture.setEtat(FactureEtat.EN_ATTENTE);
+            factureRepository.save(facture);
+            String factureNumber = generateFactureNumber(facture);
+            facture.setNumber(factureNumber);
+            Facture savedFacture = factureRepository.save(facture);
+            return mapper.map(savedFacture, FactureDto.class);
+        } else {
+            throw new FactureExistException("Facture already exists", facture.getNumber());
+        }
     }
+
+
 
     @Override
     public FactureDto updateFacture(Long id, FactureDto factureDto) {
-
         Facture facture = factureRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("facture", "id", id));
+        // Mettre à jour les champs de la facture
         mapper.map(factureDto, facture);
+
+        // Mettre à jour l'état de la facture si le champ est présent dans le DTO
+        if (factureDto.getEtat() != null) {
+            facture.setEtat(FactureEtat.valueOf(String.valueOf(factureDto.getEtat())));
+        }
+
         Facture updatedFacture = factureRepository.save(facture);
         return mapper.map(updatedFacture, FactureDto.class);
     }
+
 
     @Override
     public void deleteFactureById(Long id) {
@@ -118,7 +141,7 @@ public class FactureServiceImplementation implements FactureService {
                 .collect(Collectors.toList());
     }
 
-    @Override
+ /*   @Override
     public List<FactureDto> getFacturesByClientId(Long clientId) {
         Client client = clientRepository.findById(clientId)
                 .orElseThrow(() -> new ResourceNotFoundException("Client", "id", clientId));
@@ -128,5 +151,5 @@ public class FactureServiceImplementation implements FactureService {
                 .collect(Collectors.toList());
 
         return factureDtos;
-    }
+    }*/
 }

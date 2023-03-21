@@ -5,58 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/exceptions/UserExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/FactureServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02eaf3a16108ecbd6d827ee3752bc53696c9792e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02fdb05a86e8a1a4bf04e0bf15980583956bc847" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b5f93056b69c34b2601690298643d7269c2a7ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11e75661ec8f4b9dd583245e8938d93f24287466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17cf8a25f9c68d7e7d1b98c87ebaf8cfa7aab08e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/190064fa48c8ded39e8f00030ad04bc3bfe5a46d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ecd7de555a886e725bf1493e1c2ef599561607d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/307fec2131ddb5bcb1fb679524308be2856c1c65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d98ae7ac7dc81b29916e7cb8c29435a78f2459c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45ba0d6c21a98fba0bd5f782899d35a76c275751" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59677fa95e4ea47f77fee24450d0d124c0e2b58f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66d292a079b6c35bdc976d5af1cc08015d37e2b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68ce58ff2d4fc84a1e1e67f5af581c7f67919c19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/72c1951b653ac44db6e4e67e3ea000a9b3bf6bf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7615f0de86866b7230a4fbaaf5d8d777c38c38d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77527d58310930b0da506750ab220ffd7d58a392" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ab62b8e5482e4db2ee1cff3a080afefeb8dcfdd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ec74093a232b675acffb2537f6089ae2e274cba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/814c635e835d29585f9a11647428e8137208ba1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/828c7d8f995bbdf5a0930b91f7d696e32c9c3354" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/894a3ccd18706db07e26a0b939717d0c036d95a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89e8978ab11418d644aa9eeea089d10259ce252d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9045e61d7ef11b169d7f8465eee8376f723507ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90de1c677fc1894d10fe147e9e31dcf88eb17333" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1811549389ec2a0eaad8cbadbefe905c531dd17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7fe5bb39f7060b5f6c37f13208bb4d445fad7b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8cf66c00cc4d5cd017caaadf800ecdb03449a55" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa52a4819606367461cfad476f3982a67aca8e88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b469f3469841ff3d98576d36af1be2d92b9bbd74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b485b2316e52c645d3f8cadd4994343083d97768" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be7d92e16812b3d03af51aed54875176481c3dec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfc5cae95d0409e474264ff43802d004d2918214" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d984cf4b96a0319a1fe909b4fd81e3576a6257" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6c30d76e211d3dba191beb7b553ef7e07c23e54" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc3fd6e5bc19a36d72e7157489049f9558c6e574" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce04d784c2a38f294af1576abf9965ec0ea9c38b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9eff9deed2b8813732abe6e5ffed728bcc67231" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddfe96d001a4d0041b487f1bff3149152eeeed68" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0236639487c3eb0498fca3dea11efc2cf69e50a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e188eb80b461c204fdf1613eee435dfa2dbf793b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e71c7e70ec451ec76d37fb090acb5c03d2e9126d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f320c9a01b865a3207bb26815e0a637f4ced484d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40f563fcfb5c9af4da8a5b2a31d584a30c3e535c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40f563fcfb5c9af4da8a5b2a31d584a30c3e535c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5732dc5221938c4fb3cf801e239f7d27fd878802" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5732dc5221938c4fb3cf801e239f7d27fd878802" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68058ea11e53427cee15175bbe42864ddfb0908c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68058ea11e53427cee15175bbe42864ddfb0908c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb056fa7cb1b3fcf883b1a42406dd21425648bb4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb056fa7cb1b3fcf883b1a42406dd21425648bb4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d50b65b6a650349a5aa5c8d7f62a03ba1ecfcdc4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d50b65b6a650349a5aa5c8d7f62a03ba1ecfcdc4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/DyInvoiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/DyInvoiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/FactureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/controller/FactureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/ClientDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/FactureDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/FactureDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/payload/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/FactureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/repository/FactureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/FactureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/FactureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/ClientServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/ClientServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/FactureServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-invoice/src/main/java/com/digitalyouthfr/dyinvoice/service/implementation/FactureServiceImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +145,11 @@
       <workItem from="1678892887112" duration="17486000" />
       <workItem from="1678962362124" duration="597000" />
       <workItem from="1679050871517" duration="17000" />
+      <workItem from="1679055456642" duration="3555000" />
+      <workItem from="1679069970048" duration="6000" />
+      <workItem from="1679168086038" duration="5274000" />
+      <workItem from="1679318338469" duration="10119000" />
+      <workItem from="1679356641253" duration="7960000" />
     </task>
     <servers />
   </component>
