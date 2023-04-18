@@ -9,24 +9,27 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDto {
-    private int id;
+    private Long id;
     private String name;
     private String email;
     private String username;
     private String companyName;
+    private String address;
     private Long phoneNumber;
 
-    public UserDto(int id) {
+
+    public UserDto(Long id) {
         this.id = id;
     }
 
     public UserDto(User user) {
-        this.id = Math.toIntExact(user.getId());
         this.name = user.getName();
         this.email = user.getEmail();
         this.username = user.getUsername();
         this.companyName = user.getCompanyName();
+        this.address = user.getAddress();
         this.phoneNumber = user.getPhoneNumber();
+
     }
 
 }

@@ -1,7 +1,5 @@
 package com.digitalyouthfr.dyinvoice.controller;
 
-
-import com.digitalyouthfr.dyinvoice.models.Client;
 import com.digitalyouthfr.dyinvoice.payload.ClientDto;
 import com.digitalyouthfr.dyinvoice.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +28,12 @@ public class ClientController {
     @GetMapping("/{id}")
     public ResponseEntity<ClientDto> getClient(@PathVariable("id") Long clientId) {
         ClientDto clientDto = clientService.getClientById(clientId);
+        return ResponseEntity.ok(clientDto);
+    }
+
+    @GetMapping("/email/{email}")
+    public ResponseEntity<ClientDto> getClientByEmail(@PathVariable("email") String email) {
+        ClientDto clientDto = clientService.findClientByMail(email);
 
         return ResponseEntity.ok(clientDto);
     }

@@ -1,8 +1,6 @@
 package com.digitalyouthfr.dyinvoice.models;
 
-
 import lombok.*;
-
 import javax.persistence.*;
 import java.util.Set;
 
@@ -20,6 +18,7 @@ public class Client {
     private String name;
     private String email;
     private Long phoneNumber;
+    private String address;
     @OneToMany(mappedBy = "client")
     private Set<Facture> facture;
 

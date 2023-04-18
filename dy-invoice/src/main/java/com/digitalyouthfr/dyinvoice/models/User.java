@@ -1,8 +1,6 @@
 package com.digitalyouthfr.dyinvoice.models;
 
-
 import lombok.*;
-
 import javax.persistence.*;
 import java.util.Set;
 
@@ -29,8 +27,12 @@ public class User {
 
     private String password;
 
+    private String address;
+
     @Column(unique = true)
     private Long phoneNumber;
+
+
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "users_roles",

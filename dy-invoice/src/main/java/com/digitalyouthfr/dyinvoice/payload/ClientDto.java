@@ -9,20 +9,21 @@ import lombok.*;
 @AllArgsConstructor
 
 public class ClientDto {
-    private int id;
+    private Long id;
     private String name;
     private String email;
     private Long phoneNumber;
+    private String address;
 
-    public ClientDto(int id) {
+    public ClientDto(Long id) {
         this.id = id;
     }
 
 
     public ClientDto(Client client) {
-        this.id = Math.toIntExact(client.getId());
         this.name = client.getName();
         this.email = client.getEmail();
         this.phoneNumber = client.getPhoneNumber();
+        this.address = client.getAddress();
     }
 }

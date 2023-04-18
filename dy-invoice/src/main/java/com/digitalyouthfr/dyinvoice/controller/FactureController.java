@@ -1,7 +1,5 @@
 package com.digitalyouthfr.dyinvoice.controller;
 
-
-import com.digitalyouthfr.dyinvoice.models.FactureEtat;
 import com.digitalyouthfr.dyinvoice.payload.FactureDto;
 import com.digitalyouthfr.dyinvoice.service.FactureService;
 import org.springframework.http.HttpStatus;
@@ -61,6 +59,11 @@ public class FactureController {
 
         factureService.deleteFactureById(factureId);
         return ResponseEntity.ok("Facture Delete Success");
+    }
+
+    @GetMapping("/client/{id}")
+    public List<FactureDto> getFacturesByClientId(@PathVariable("id") Long clientId) {
+        return factureService.getFacturesByClientId(clientId);
     }
 
 

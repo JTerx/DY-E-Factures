@@ -28,14 +28,14 @@ public class DyInvoiceApplication {
 		return new ModelMapper();
 	}
 
-	@Bean
+/*	@Bean
 	public ObjectMapper objectMapper() {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.NONE);
 		mapper.setVisibility(PropertyAccessor.GETTER, JsonAutoDetect.Visibility.ANY);
 		mapper.setVisibility(PropertyAccessor.SETTER, JsonAutoDetect.Visibility.ANY);
 		return mapper;
-	}
+	}*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(DyInvoiceApplication.class, args);

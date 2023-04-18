@@ -16,5 +16,6 @@ public interface ClientService {
 
     ClientDto updateClient(ClientDto clientDto, Long id);
 
+    ClientDto findClientByMail(String email);
     void deleteClientById(Long id);
 }

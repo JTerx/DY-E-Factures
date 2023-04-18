@@ -22,5 +22,5 @@ public interface FactureService {
 
     List<FactureDto> getFacturesByUserId(Long userId);
 
-//    List<FactureDto> getFacturesByClientId(Long clientId);
+    List<FactureDto> getFacturesByClientId(Long clientId);
 }

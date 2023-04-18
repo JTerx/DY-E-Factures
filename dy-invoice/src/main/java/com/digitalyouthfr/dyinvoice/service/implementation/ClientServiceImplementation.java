@@ -49,6 +49,8 @@ public class ClientServiceImplementation implements ClientService {
         return mapper.map(client, ClientDto.class);
     }
 
+
+
     @Override
     public List<ClientDto> getAllClient() {
         List<Client> clients = clientRepository.findAll();
@@ -60,6 +62,13 @@ public class ClientServiceImplementation implements ClientService {
     @Override
     public ClientDto updateClient(ClientDto clientDto, Long id) {
         return null;
+    }
+
+    @Override
+    public ClientDto findClientByMail(String email) {
+        Client client = clientRepository.findByEmail(email)
+                .orElseThrow(() -> new ResourceNotFoundException("Client", "email not found", Long.parseLong(email)));
+        return mapper.map(client, ClientDto.class);
     }
 
     @Override
