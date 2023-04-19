@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="" />
+    <list default="true" id="bb11d339-2607-41f5-bcc3-6c11dc4f4553" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dy-invoice/railway.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +135,7 @@
       <workItem from="1680796561419" duration="730000" />
       <workItem from="1681768998024" duration="41000" />
       <workItem from="1681770971974" duration="2345000" />
-      <workItem from="1681809639514" duration="10006000" />
+      <workItem from="1681809639514" duration="12952000" />
     </task>
     <servers />
   </component>
